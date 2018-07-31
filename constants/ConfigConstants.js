@@ -23,7 +23,6 @@ if (nodeEnv === 'local') {
     }
   };
   FIREBASE_CONFIG = {
-    'apiKey': 'AIzaSyBMgVrC_HpTgbpN29t9GBJpzrNASpukYCA',
     'authDomain': 'fir-app-8f60b.firebaseapp.com',
     'databaseURL': 'https://fir-app-8f60b.firebaseio.com',
     'projectId': 'fir-app-8f60b',

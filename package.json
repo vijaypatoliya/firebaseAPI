@@ -1,11 +1,47 @@
 {
-  "name": "firebaseapi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "task-module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@types/node": "^9.4.7",
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.18.2",
+    "boom": "^7.2.0",
+    "cldr-data": "^32.0.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cron": "^1.3.0",
+    "debug": "~2.6.9",
+    "dotenv": "^5.0.1",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "firebase": "^4.12.1",
+    "firebase-admin": "^5.12.0",
+    "firebase-functions": "^0.7.0",
+    "firebase-tools": "^3.15.0",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.2.0",
+    "juice": "^4.2.3",
+    "mandrill-api": "^1.0.45",
+    "md5": "^2.2.1",
+    "moment": "^2.21.0",
+    "mongodb": "^2.2.16",
+    "mongoose": "^5.0.10",
+    "mongoose-currency": "^0.2.0",
+    "mongoose-validator": "^2.0.2",
+    "morgan": "~1.9.0",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.17.3",
+    "open": "0.0.5",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "grunt": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
 }
